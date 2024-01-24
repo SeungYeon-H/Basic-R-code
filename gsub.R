@@ -1,4 +1,4 @@
-#gsub => similar to the EXCEL 's ctrl+f and convert the contents into other components
+#gsub =>  EXCEL 's ctrl+f and convert the contents into other components
 
  head(iris)
 #  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
