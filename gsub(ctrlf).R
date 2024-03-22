@@ -12,6 +12,7 @@
 read<-subset(iris,select=c(2,4,5))
 names(read)<-c("a","b","c")
 read$c<-gsub('setosa','STs',read$c)
+#multiple conversion is like : read$c<-gsub('jinwuicheon|Osancheon|Ansungcheon|Balancheon', 'Han river tributary in Gyeong-gi province', read$c)
 head(iris)
 
 head(read)
