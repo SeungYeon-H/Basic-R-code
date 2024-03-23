@@ -56,3 +56,13 @@ tibble [48 × 31] (S3: tbl_df/tbl/data.frame)
  $ 85-2토광묘              : num [1:48] NA NA NA NA NA NA NA NA NA NA ...
  $ 85-1토광묘              : num [1:48] NA NA NA NA NA NA NA NA NA NA ...
  
+
+
+#another route
+
+read<-subset(read,select=c(1,4:15)) 
+read %>%
+t%>%
+as_tibble()%>%
+setNames(as.character(.[1,])) %>%
+  .[-1,] 
