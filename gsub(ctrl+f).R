@@ -23,3 +23,8 @@ head(read)
 4  3.1   0.2 STs
 5  3.6   0.2 STs
 6  3.9   0.4 STs
+
+
+###getting rid of the particular word in R
+
+read$c<-gsub("a", "", read$c) #all c in the column of read$c will be excluded
