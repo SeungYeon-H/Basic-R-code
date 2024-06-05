@@ -1,4 +1,4 @@
-#change all column element into numeric
+#change all column element (which is character) into numeric in dataframe
 
 frame[] <- lapply(frame, function(x) {
  
