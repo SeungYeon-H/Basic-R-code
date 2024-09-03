@@ -1,0 +1,4 @@
+#inserting the new variable following the row number
+data$new_variable <- 1:nrow(data)
+#or
+data$new_variable <- seq(1, nrow(data))
