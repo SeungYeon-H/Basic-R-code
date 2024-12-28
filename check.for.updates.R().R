@@ -1,4 +1,4 @@
-### in case the error occurs and there needs an update : check the version of the R-----------------
+### check the version of the R-----------------
 
 
 library(ggplot2) # and sometime the error comes up like : 
